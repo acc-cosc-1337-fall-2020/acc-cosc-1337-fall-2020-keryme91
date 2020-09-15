@@ -8,5 +8,6 @@ TEST_CASE("Verify Test Configuration", "verification") {
 
 TEST_CASE("Test sum_numbers function") 
 {
-	REQUIRE(multiply_numbers(5, 5) == 25);
+	REQUIRE(multiply_numbers(2) == 10);
+	REQUIRE(multiply_numbers(5) == 50);
 }

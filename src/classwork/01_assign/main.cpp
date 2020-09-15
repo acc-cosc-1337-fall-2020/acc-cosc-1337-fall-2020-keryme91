@@ -4,7 +4,7 @@
 //Write include for capturing input from keyboard and displaying output to screen
 
 
-*/
+
 using std::cout;    using std::cin;
 
 int main() 
@@ -13,13 +13,12 @@ int main()
 cout<< "Enter a number:";//Text to display to the screen.
 cin>>n1;//caputure a number from keyboard 
 
-int n2;
-cout<< "Enter a number:";//Text to display to the screen.
-cin>>n2;//caputure a number from keyboard 
+int n2 = 4;
 
-  int result = multiply_numbers(n1, n2);
 
-cout<< "Result=" << multiply_numbers;
+  int result = multiply_numbers(n1);
+
+cout<< "Result=" << multiply_numbers(n2);
 	return 0;
 }
 
